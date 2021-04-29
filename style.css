@@ -1,0 +1,120 @@
+* {
+ box-sizing: border-box;
+}
+body{
+  margin:0px ;
+  padding:0px;
+  font: poppins;
+}
+
+
+#first{
+   width: 100%;
+   height:50vh;
+   position : relative;
+}
+nav {
+   display:flex ;
+   justify-content:space-around;
+   align-items:center;
+   position: fixed;
+   top:0;
+   left:0;
+   width:100%;
+   background-color:white;
+   box-shadow:5px,10px,30px grey;
+}
+.logo img {
+       imag-style:none;
+       height: 50px;
+}
+.menu{
+   list-style: none;
+  display: flex;
+}
+.menu li a{
+    height: 40px;
+    line-height: 43px;
+    argin:3px;
+    padding:0px  22px;
+    display: flex;
+    font-size:0.8cm;
+    text-transform: uppercase;
+    font-weight:500;
+    letter-spacing: 1px;
+    color:blueviolet;
+ }
+ul{
+  list-style: none;
+
+ }
+a{
+text-decoration: none;
+display: flex;
+}
+
+.hello{
+   color:blue;
+   font-weight: 500;
+   font-size:0.9cm;
+   border-bottom: 2px solid #39bfbd;
+         
+}
+.image{
+    width:500px;
+    height:500px;
+ }
+ 
+.image img{
+      width:100%;
+      height:100%;
+      object-fit:contain;
+      
+}
+ .Theory{
+     display: flex;
+     width: 90%;
+     justify-content: space-around;
+     align-items: center;
+    position: absolute;
+    left:50%;
+    right:50%;
+   transform: translate(-50%,-50%);
+}
+.Theory-text{
+          width: 500px;
+
+}
+.Theory -text h1{
+   font-size: 3.5cm;
+   color: aqua;
+   margin: 0px,0px,10px,0px;
+  line-height:60px;
+       
+}
+.Theory-text p{
+     color: grey;
+}
+.resume-btn{
+    width:190px;
+    height:44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke;
+    background-color: black;
+    border-radius: 20px;
+     box-shadow: 5px,10px,30px;
+}
+.resume-btn:hover{
+  background-color:#23cdaf;
+  transition :all ease 0.2s;
+}
+.menu li a : hover {
+  background-color: #23cdaf;
+  color : white;
+  box-shasow:5px 10px 30px rgba(224,139,119,0,2);
+  transition : all ease 0.2s;
+
+
+}
